@@ -11,7 +11,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>INSERT YOUR NAME</title>
+    <title></title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -67,7 +67,7 @@
         <div class="headline">
             <div class="container">
                 <h2>Lesson 3 Highlights</h2>
-                <h3>INSERT YOUR NAME</h3>
+                <h3>Lauren Grassano</h3>
             </div>
         </div>
     </header>
@@ -79,55 +79,63 @@
 
         <!-- First Featurette -->
         <div class="featurette" id="topic1">
-            <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
+            <img class="featurette-image img-circle img-responsive pull-right" src="https://valuebound.com/sites/default/files/2015-12/Beginners_guide_setting_up-git.jpg">
             <h2 class="featurette-heading">Highlight #1
-                <span class="text-muted">Topic 1 Header</span>
+                <span class="text-muted">What is a Git</span>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead">Git is, first and foremost, a version control system (VCS). There are many version control systems out there: CVS, SVN, Mercurial, Fossil, and, of course, Git. Git serves as the foundation for many services, like GitHub and GitLab, but you can use Git without using any other service. This means that you can use Git privately or publicly.</p>
         </div>
 
         <hr class="featurette-divider">
 
         <!-- Second Featurette -->
         <div class="featurette" id="topic2">
-            <img class="featurette-image img-circle img-responsive pull-left" src="http://placehold.it/500x500">
+            <img class="featurette-image img-circle img-responsive pull-left" src="https://i.stack.imgur.com/naws3.png">
             <h2 class="featurette-heading">Highlight #2
-                <span class="text-muted">Topic 2 Header</span>
+                <span class="text-muted">Three main states</span>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead">Git has three main states that your files can reside in: committed, modified, and staged:
+
+Committed means that the data is safely stored in your local database.
+
+Modified means that you have changed the file but have not committed it to your database yet.
+
+Staged means that you have marked a modified file in its current version to go into your next commit snapshot.
+
+</p>
         </div>
 
         <hr class="featurette-divider">
 
         <!-- Third Featurette -->
         <div class="featurette" id="topic3">
-            <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
+            <img class="featurette-image img-circle img-responsive pull-right" src="https://image.slidesharecdn.com/git-talk-webisart-170603195955/95/git-architecture-23-638.jpg?cb=1496520086">
             <h2 class="featurette-heading">Highlight #3
                 <span class="text-muted">Topic 3 Header</span>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead">The Git directory is where Git stores the metadata and object database for your project. This is the most important part of Git, and it is what is copied when you clone a repository from another computer. The working tree is a single checkout of one version of the project. These files are pulled out of the compressed database in the Git directory and placed on disk for you to use or modify. The staging area is a file, generally contained in your Git directory, that stores information about what will go into your next commit. Its technical name in Git parlance is the “index”, but the phrase “staging area” works just as well.</p>
         </div>
         
         <hr class="featurette-divider">
         
        <!-- Fourth Featurette -->
         <div class="featurette" id="topic4">
-            <img class="featurette-image img-circle img-responsive pull-left" src="http://placehold.it/500x500">
+            <img class="featurette-image img-circle img-responsive pull-left" src="https://git-scm.com/figures/18333fig0105-tn.png">
             <h2 class="featurette-heading">Highlight #4
-                <span class="text-muted">Topic 4 Header</span>
+                <span class="text-muted">Git Snapshots</span>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead">Git thinks of its data more like a series of snapshots of a miniature filesystem. With Git, every time you commit, or save the state of your project, Git basically takes a picture of what all your files look like at that moment and stores a reference to that snapshot. To be efficient, if files have not changed, Git doesn’t store the file again, just a link to the previous identical file it has already stored. Git thinks about its data more like a stream of snapshots.</p>
         </div>
 
         <hr class="featurette-divider">
 
         <!-- Fifth Featurette -->
         <div class="featurette" id="topic5">
-            <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
+            <img class="featurette-image img-circle img-responsive pull-right" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvUvSFx1D8dYa3IFhPpCNVUa9qH35HWtdHnROJ54yXdXzHRbUr">
             <h2 class="featurette-heading">Highlight #5
-                <span class="text-muted">Topic 5 Header</span>
+                <span class="text-muted">Git Functionality</span>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead">Everything in Git is check-summed before it is stored and is then referred to by that checksum. This means it’s impossible to change the contents of any file or directory without Git knowing about it. This functionality is built into Git at the lowest levels and is integral to its philosophy. You can’t lose information in transit or get file corruption without Git being able to detect it. The mechanism that Git uses for this checksumming is called a SHA-1 hash. This is a 40-character string composed of hexadecimal characters (0–9 and a–f) and calculated based on the contents of a file or directory structure in Git. .</p>
         </div>
 
         <hr class="featurette-divider">

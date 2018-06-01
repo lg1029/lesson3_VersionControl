@@ -5,16 +5,16 @@
 Web Application Development
 
 ## Assignment Date:  
-(Month Day, Year)
+(June 1st, 2018)
 
 ## Student Name:  
-(First and Last Name)
+(Lauren Grassano)
 
 ## Project Description:
-(In your own words, briefly describe the assignment.)
+We learned what a Git was and how it works.
 
 ## Lessons Learned in the Assignment:
-1. (Briefly describe a lesson/concept learned in this lesson.)
-2. (Briefly describe a lesson/concept learned in this lesson.)
-3. (Briefly describe a lesson/concept learned in this lesson.)
+1. A Git is a virtual control system (VCS) just like CVS, SVN, Mercurial, and Fossil.
+2. A git has three main states committed, modified, and staged.
+3. Git sees its files as snapshots. It sees its files like a stream of snapshots. 
 
